@@ -1,32 +1,33 @@
 {
-  "name": "@aptos-labs/wallet-adapter",
-  "version": "0.0.0",
-  "private": true,
-  "license": "Apache-2.0",
-  "workspaces": [
-    "apps/*",
-    "packages/*"
-  ],
-  "scripts": {
-    "build": "turbo run build",
-    "dev": "turbo run dev --no-cache --parallel --continue",
-    "lint": "biome lint .",
-    "test": "turbo run test",
-    "format": "biome format --write .",
-    "check": "biome check --write .",
-    "clean": "turbo run clean && rm -rf node_modules",
-    "changeset": "changeset",
-    "version-packages": "changeset version",
-    "publish-packages": "changeset version && changeset publish"
-  },
-  "devDependencies": {
-    "@biomejs/biome": "^2.4.6",
-    "@changesets/cli": "^2.29.7",
-    "turbo": "latest",
-    "typescript": "^7.0.2"
-  },
-  "engines": {
-    "node": ">=22.13.0"
-  },
-  "packageManager": "pnpm@11.8.0"
+    "name":  "@aptos-labs/wallet-adapter",
+    "version":  "0.0.0",
+    "private":  true,
+    "workspaces":  [
+                       "apps/*",
+                       "packages/*"
+                   ],
+    "scripts":  {
+                    "build":  "turbo run build",
+                    "dev":  "turbo run dev --no-cache --parallel --continue",
+                    "lint":  "biome lint .",
+                    "test":  "turbo run test",
+                    "format":  "biome format --write .",
+                    "check":  "biome check --write .",
+                    "clean":  "turbo run clean \u0026\u0026 rm -rf node_modules",
+                    "changeset":  "changeset",
+                    "version-packages":  "changeset version",
+                    "publish-packages":  "changeset version \u0026\u0026 changeset publish"
+                },
+    "devDependencies":  {
+                            "@biomejs/biome":  "^2.4.6",
+                            "@changesets/cli":  "^2.29.7",
+                            "turbo":  "latest",
+                            "typescript":  "^7.0.2"
+                        },
+    "engines":  {
+                    "node":  "\u003e=22.13.0"
+                },
+    "packageManager":  "pnpm@11.8.0",
+    "author":  "Jahid",
+    "license":  "PROPRIETARY"
 }

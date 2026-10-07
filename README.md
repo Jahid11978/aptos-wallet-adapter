@@ -1,3 +1,12 @@
+---
+
+**Owner:** Jahid  
+**Email:** jahid11978@outlook.com  
+**Platform:** JAHIDS.AI  
+**Organization:** mdjahid11978-design  
+
+---
+
 # Aptos Wallet Adapter
 
 A comprehensive monorepo developed and maintained by Aptos for wallet and dapp builders. Includes wallet adapter SDK, cross-chain functionality, and derived wallet support for seamless multi-chain integration.
